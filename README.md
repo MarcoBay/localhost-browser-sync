@@ -6,6 +6,13 @@ For a camera web app, it has to run on a localhost browser.
 
 ## Getting started
 
+install yarn
+
+### macOS
+```brew install yarn```
+
+
+## Prepare
 Just create a folder and copy all necessary web app files into it.
 
 Here we use index.html as start page.
