@@ -1,0 +1,14 @@
+.buttonStyle {
+    text-align: center;
+    color: rgb(215, 211, 200); /* Mozilla sand */
+    background-color: rgb(77, 78, 83); /* Mozilla charcoal */
+    font-family:'Helvetica Neue',sans-serif;
+    font-size:16px;
+    line-height:30px;
+    border-radius:20px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border:0;
+    width:120px;
+    height:32px
+}

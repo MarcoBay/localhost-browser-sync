@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="container";overflow:hidden;width:650px">
+        <div id="inner" style="overflow:hidden;width:650px">
+            <div style="float:left;margin:10px;">
+                <input type="submit" id="playButton" class="buttonStyle" value="Play"></input>
+            </div>
+            <div style="float:left;margin:10px;">
+                <input type="submit" id="stopButton" class="buttonStyle" value="Stop"></input>
+            </div>
+        </div>            
+        <div id="inner" style="overflow:hidden;width:650px">
+            <div style="float:left;margin:10px;">
+                <video id="webcam"></video>
+            </div>
+            <div style="float:left;margin:10px;">
+                <canvas id="result"></canvas>
+            </div>
+        </div>    
+    </div>    
+    <script src="scripts/main.js "></script> 
+</body>
+
+</html>
